@@ -1,2 +1,40 @@
-
 /* Your CSS Code here. */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div {
+  margin: 10px 0;
+}
+
+label {
+  display: inline-block;
+  width: 120px;
+  text-align: right;
+  margin-right: 20px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+select {
+  width: 200px;
+}
+
+button[type="submit"] {
+  margin-top: 20px;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
